@@ -1,0 +1,66 @@
+@media (max-width:576px) {
+    body {
+        padding-top: 98px !important;
+    }
+    #hero-h2 {
+        font-size: 28px;
+    }
+    .signin-btn,
+    .signup-btn {
+        display: block;
+        margin:15px 0px;
+    }
+    #app-preview-section {
+        border-radius: 70px;
+        padding: 18px !important;
+    }
+    #app-preview-section h2{
+        margin-bottom:10px;
+    }
+    #app-preview-section  .pt-5 {
+        padding-top: 2rem !important;
+    }
+    .single-scroll h5 {
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 136%;
+    }
+    #get-more-section #hero-h2{
+        margin-top: 50px;
+    }
+    .accordion-button::after {
+        margin-left:10px;
+    }
+    #footer {
+        padding-bottom: 0px !important;
+    }
+    #hero-model{
+        margin-top: 30px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+}
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+}
