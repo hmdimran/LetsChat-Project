@@ -17,7 +17,6 @@
                 <div class="row">
                     <div class="col-12">
                         <nav class="navbar navbar-expand-lg">
-                            <div class="container-fluid">
                                 <a class="navbar-brand" href="#">
                                     <img class="img-fluid w-auto" src="assets/images/logo.png" alt="Main Logo">
                                 </a>
@@ -37,7 +36,7 @@
                                         <a class="btn signup-btn p-2" href="">Create an account</a>
                                     </div>
                                 </div>
-                            </div>
+                            
                         </nav>
                     </div>
                 </div>
@@ -48,6 +47,9 @@
         <section class="hero-section p-md-5 pt-md-5 pl-0 pr-0 p-sm-0">
             <div class="container">
                 <div class="row">
+                    <div class="col-md-6 d-lg-none d-block" id="hero-model">
+                        <img class="img-fluid" src="assets/images/hero.png" alt="Hero Image">
+                    </div>
                     <div class="col-md-6">
                         <h2 id="hero-h2">Secure, smart, and easy to use messaging with LetzChat</h2>
                         <p id="hero-p" class="mt-3">Get more done with LetzChat. Now integrated with Google Chat, Google Meet,
@@ -57,20 +59,21 @@
                             <a class="btn signin-btn p-2" href="">Sign in</a>
                         </div>
                     </div>
-                    <div class="col-md-6" id="hero-model">
+                    <div class="col-md-6 d-lg-block d-none" id="hero-model">
                         <img class="img-fluid" src="assets/images/hero.png" alt="Hero Image">
                     </div>
                 </div>
             </div>
-            <div class="arrow">
-                <img src="assets/images/image 47.png" alt="">
-            </div>
+           
         </section>
         
         <section class="mobile-app p-xm-3 pl-0 pr-0">
             <div class="container">
                 <div id="app-preview-section" class="p-md-5 px-5 pl-0 pr-0">
                     <div class="row">
+                         <div class="col-md-6 pt-5 d-lg-none d-block">
+                            <img class="img-fluid" src="assets/images/mobile.png" alt="Mobile App Preview">
+                        </div>
                         <div class="col-md-6 pt-5">
                             <h3>Secure, smart, and easy to use messaging with LetzChat</h3>
                             <div id="scrollable-content">
@@ -124,7 +127,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 pt-5">
+                        <div class="col-md-6 pt-5 d-lg-block d-none">
                             <img class="img-fluid" src="assets/images/mobile.png" alt="Mobile App Preview">
                         </div>
                     </div>
@@ -164,7 +167,10 @@
             <div class="container">
                 <div id="app-preview-section2" class="pt-5 pb-5">
                     <div class="row">
-                        <div class="col-md-6 p-3 mr-2">
+                        <div class="col-md-6 pt-5 p-3 ml-2 d-lg-none d-block">
+                            <img class="img-fluid" src="assets/images/mobile2.png" alt="Mobile App Preview">
+                        </div>
+                        <div class="col-md-6 p-lg-3 mr-2">
                             <h2 id="hero-h2">Get more done with LetsChat</h2>
                             <p id="hero-p" class="pt-3">Gmail has always had strong security as a foundation. We work hard to
                                 protect you from
@@ -182,7 +188,7 @@
                                 before they reach your inbox. Our AI-enhanced
                             </p>
                         </div>
-                        <div class="col-md-6 pt-5 p-3 ml-2">
+                        <div class="col-md-6 pt-5 p-3 ml-2 d-lg-block d-none">
                             <img class="img-fluid" src="assets/images/mobile2.png" alt="Mobile App Preview">
                         </div>
                     </div>
@@ -200,14 +206,14 @@
                             <p class="text-white mt-3">Get more done with LetzChat. Now integrated with Google Chat, Google Meet, and
                                 more, all in one place.</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mt-lg-0 mt-5">
                             <img src="assets/images/love.png" alt="">
                             <h5 class="text-white mb-2">We never use your LetsChat content for any ads purposes</h5>
                             <p class="text-white mt-3">Get more done with LetzChat. Now integrated with Google Chat, Google Meet, and
                                 more, all in
                                 one place.</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4  mt-lg-0 mt-5">
                             <img src="assets/images/love.png" alt="">
                             <h5 class="text-white mb-2">We never use your LetsChat content for any ads purposes</h5>
                             <p class="text-white mt-3">Get more done with LetzChat. Now integrated with Google Chat, Google Meet, and
@@ -222,6 +228,9 @@
         <section id="get-more-section" class="p-md-5 pt-5 pb-5">
             <div class="container">
                 <div class="row p-md-4">
+                    <div class="col-md-6 pt-lg-5 p-md-3 ml-2 text-center d-lg-none d-block">
+                        <img class="img-fluid" src="assets/images/more.png" alt="Hero Image">
+                    </div>
                     <div class="col-md-6">
                         <h2 id="hero-h2">Get more done with LetsChat</h2>
                         <p id="hero-p" class="pt-3">Gmail has always had strong security as a foundation. We work hard to
@@ -240,7 +249,7 @@
                             <a class="btn signin-btn p-md-2" href="">Sign in</a>
                         </div>
                     </div>
-                    <div class="col-md-6 pt-5 p-md-3 ml-2 text-center">
+                    <div class="col-md-6 pt-5 p-md-3 ml-2 text-center d-lg-block d-none">
                         <img class="img-fluid" src="assets/images/more.png" alt="Hero Image">
                     </div>
                 </div>
@@ -352,9 +361,12 @@
     </main>
 
     <footer>
-        <section id="footer" class="p-md-5 p-5">
-            <div class="container">
-                <div class="row pt-5 pb-5">
+        <section id="footer" class="p-md-5 p-lg-5 py-lg-5">
+            <div class="container pt-5">
+                <div class="second mt-5 mb-3 text-md-center text-center d-lg-none d-block">
+                            <img class="img-fluid w-75" src="assets/images/logo-white.png" alt="">
+                        </div>
+                <div class="row pt-4 pb-5 text-lg-start text-center">
                     <div class="col-md-3">
                         <div class="first">
                             <h5 class="mb-4">Website</h5>
@@ -388,7 +400,7 @@
                             <h5 class="mb-4">Self-Service Subtitle Maker</h5>
                             <a href="">Website Link 6</a>
                         </div>
-                        <div class="second mt-5 mb-3 text-md-center text-center">
+                        <div class="second mt-5 mb-3 text-md-center text-center d-lg-block d-none">
                             <img class="img-fluid w-75" src="assets/images/logo-white.png" alt="">
                         </div>
                     </div>
